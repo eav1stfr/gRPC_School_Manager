@@ -1,7 +1,9 @@
 package handlers
 
-import "grpcapi/proto/gen"
+import pb "grpcapi/proto/gen"
 
 type Server struct {
-	pb.
+	pb.UnimplementedExecsServiceServer
+	pb.UnimplementedStudentsServiceServer
+	pb.UnimplementedTeachersServiceServer
 }
