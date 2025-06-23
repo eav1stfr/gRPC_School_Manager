@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "validate/validate.proto";
+
+package main;
+
+option go_package = "/proto/gen;mainapipb";
+
+service TeachersService {
+  rpc GetTeachers
+}
+
